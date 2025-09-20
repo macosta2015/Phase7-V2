@@ -416,7 +416,7 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         ////////////////////////////////////////////////////////////////////////////
 
 
-        ///////TEST CODE NOW (Sept 19th) working
+
         ////////////////////////////////////////////////////////////////////////////
         console.log("CCCCCCCCCC");
         console.log(''); // This logs an empty line, effectively skipping a line
@@ -453,7 +453,7 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
 
         // Selecting the tabs EXTENSIONS RIGHT
         ////////////////////////////////////////////////////////////////////////////
-        const selectorTabs5 = 'tab-list-item.os-tab-bar-tab[data-id="a21ad6c852c19e9b77d5074d"][data-icon-src="partstudio"]';
+        const selectorTabs5 = 'tab-list-item.os-tab-bar-tab[data-id="a7f6f09688daa1dbb5c3beba"][data-icon-src="partstudio"]';
         console.log("extension EXTENSIONS RIGHT ");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
@@ -470,7 +470,7 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
 
 
 
-        ///////TEST CODE
+        ///////TEST CODE NOW SEPT 19 
         ////////////////////////////////////////////////////////////////////////////
         console.log("CCCCCCCCCC");
         console.log(''); // This logs an empty line, effectively skipping a line
@@ -478,7 +478,8 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log("DDDDDDDDDD");
         console.log(''); // This logs an empty line, effectively skipping a line
         const selector32 = 'div[data-id="6zlB1MwSR4wHnGtm"]'; // Replace with the appropriate selector
-        const title32 = 'Sketch 2'; // Replace with the desired title
+        // const title32 = 'Sketch 2'; // Replace with the desired title //Testing code
+        const title32 = 'Sketch 2 is not fully defined'; // Replace with the desired title
         const editOptions32 = await performRightClickOptionByTitle(newPage, selector32, title32);
         console.log("EEEEEEEEEE");
         console.log(''); // This logs an empty line, effectively skipping a line
